@@ -11,7 +11,7 @@ provider "aws" {
 region = "us-west-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-02a89066c48741345"
+  ami = "ami-024e6efaf93d85776"
   instance_type = "t2.micro"
   key_name = "debian-import"
 
